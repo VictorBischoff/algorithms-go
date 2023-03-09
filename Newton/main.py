@@ -9,5 +9,5 @@ def fm(x):
   return 3*x**2-1
   
 for omgang in range(10):
-    xn = -f(xn)/fm(xn)
+    xn = xn -f(xn)/fm(xn)
     print(f"Rod: {xn} in omgang: {omgang}")
