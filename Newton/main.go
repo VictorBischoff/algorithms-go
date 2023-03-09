@@ -24,6 +24,6 @@ func newtonRaphson(x0 float64, tolerance float64) float64 {
 }
 
 func main() {
-	root := newtonRaphson(2, 0.0001)
+	root := newtonRaphson(5, 0.0001)
 	fmt.Printf("Rod af funktionen: %f\n", root)
 }
